@@ -1,1 +1,1 @@
-This is the frontend part of the ecommerce website in React
+This is the complete e-commerce website in MERN.
