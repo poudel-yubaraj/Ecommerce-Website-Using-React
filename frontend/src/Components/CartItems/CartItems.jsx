@@ -16,6 +16,8 @@ const CartItems = () => {
        </div>
        <hr />
         {all_product.map((e)=>{
+            console.log("hello world");
+            console.log(cartItems[e.id]);
             if(cartItems[e.id]>0){
                 return <div key={e.id}>
                 <div className="cartitems-format cartitems-format-main">
